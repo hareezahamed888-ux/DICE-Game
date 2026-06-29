@@ -1,0 +1,52 @@
+:root{
+    --clr-neon: #3533a5;
+    --clr-bg: #0f0f0f;
+
+}
+body{
+    background:linear-gradient(to right, var(--clr-neon),var(--clr-bg));
+}
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+h1{
+    text-align:center;
+    margin:20px ;
+    font-size: 5rem;
+    color:whitesmoke;
+
+}
+.dice-area{
+    margin: 20px 210px;
+    text-align:center;
+    display:inline-block;
+
+}
+p{
+    font-size: 2.5rem;
+    color:whitesmoke;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.neon-button{
+    font-size: 2rem;
+    position: absolute;
+    top:90%;
+    left:45%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color:var(--clr-neon);
+    border:var(--clr-neon) 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background:transparent;
+    text-shadow: 0 0 5px var(--clr-neon), 0 0 10px var(--clr-neon), 0 0 20px var(--clr-neon), 0 0 40px var(--clr-neon);
+      
+}
